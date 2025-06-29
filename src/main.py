@@ -1,5 +1,7 @@
 import flet as ft
 import asyncio
+import micropip
+await micropip.install("python-binance") # Или "binance-connector", если вам нужен именно он
 from binance.client import Client
 import time
 import threading
@@ -448,6 +450,6 @@ if __name__ == "__main__":
     ft.app(main,
         assets_dir="assets", 
         view=ft.AppView.WEB_BROWSER, 
-        port=9002
+        port=8000
         # port=1026
      )

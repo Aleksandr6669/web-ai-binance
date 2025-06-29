@@ -77,3 +77,4 @@ python-binance
 ta
 google-generativeai
 google-genai
+micropip==0.9.0
