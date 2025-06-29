@@ -8,12 +8,12 @@ authors = [
     { name = "Flet developer", email = "you@example.com" }
 ]
 dependencies = [
-  "flet==0.28.3"
-  "binance"
-  "threading"
-  "pandas"
-  "google"
-  "ta"
+  "flet==0.28.3",
+  "binance",
+  "threading",
+  "pandas",
+  "google",
+  "ta",
   "dotenv"
 ]
 
