@@ -19,14 +19,6 @@ jobs:
     - name: Install Flet
       run: pip install flet
 
-    - name: Set up Flutter
-      uses: subosito/flutter-action@v2
-      with:
-        channel: 'stable'
-
-    - name: Install Android SDK
-      uses: android-actions/setup-android@v3
-
     - name: Build APK
       run: flet build apk  # Твоя команда для билда
 
